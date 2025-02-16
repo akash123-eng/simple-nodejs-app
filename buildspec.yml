@@ -10,6 +10,7 @@ phases:
     commands:
       - echo "Pre-build phase"
   build:
+    commands:
       - echo "Building application..."
       - grep -Fq "john" index.html
   post_build:
